@@ -10,3 +10,16 @@
     max-height: 50px;
 }
 
+html {
+	height:100vh;
+}
+
+body {
+	
+	height:100vh;
+}
+
+.background-gradient
+{
+    background: linear-gradient(to bottom, rgb(30, 30, 30), black);
+}
