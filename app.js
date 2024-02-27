@@ -1,5 +1,7 @@
 const hiddenElements = document.querySelectorAll('.hidden, .hiddenLogos, .hiddenText');
 
-hiddenElements.forEach((entry) => {
-    entry.classList.add('show');
-});
+window.addEventListener('load', function () {
+    hiddenElements.forEach((entry) => {
+        entry.classList.add('show');
+    });
+})
