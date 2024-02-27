@@ -19,7 +19,13 @@ body {
 	height:100vh;
 }
 
-.background-gradient
+.nav-gradient
 {
     background: linear-gradient(to bottom, rgb(30, 30, 30), black);
+}
+
+.background-gradient
+{
+    background: rgb(20,20,20);
+    background: linear-gradient(180deg, rgba(70,70,70,1) 0%, rgba(50,50,50,1) 15%, rgba(20,20,20,1) 60%, rgba(0,0,0,1) 100%);
 }
