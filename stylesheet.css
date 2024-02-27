@@ -29,3 +29,48 @@ body {
     background: rgb(20,20,20);
     background: linear-gradient(180deg, rgba(70,70,70,1) 0%, rgba(50,50,50,1) 15%, rgba(20,20,20,1) 60%, rgba(0,0,0,1) 100%);
 }
+
+.hidden
+{
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+.hiddenText
+{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.hiddenLogos
+{
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: all 1s;
+}
+
+.show 
+{
+    transform: translateY(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.logos:nth-child(2)
+{
+    transition-delay: 150ms;
+}
+.logos:nth-child(3)
+{
+    transition-delay: 300ms;
+}
+.logos:nth-child(4)
+{
+    transition-delay: 450ms;
+}
+
+.logos:nth-child(5)
+{
+    transition-delay: 600ms;
+}
