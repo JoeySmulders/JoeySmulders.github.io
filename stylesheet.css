@@ -57,6 +57,20 @@ body {
     opacity: 1;
 }
 
+.card:hover
+{
+    opacity: 1;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.card:not(:hover)
+{
+    opacity: 0.9;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
 .logos:nth-child(2)
 {
     transition-delay: 150ms;
