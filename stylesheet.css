@@ -57,18 +57,13 @@ body {
     opacity: 1;
 }
 
-.card:hover
-{
-    opacity: 1;
-    transform: scale(1.15);
-    transition: all 0.5s;
+.card:hover {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 
-.card:not(:hover)
-{
-    opacity: 0.9;
-    transform: scale(1);
-    transition: all 0.5s;
+.card-img-top {
+    transform: translateZ(20px);
 }
 
 .logos:nth-child(2)
